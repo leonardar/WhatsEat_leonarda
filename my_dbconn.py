@@ -71,7 +71,7 @@ def parse_recipes(url):
             response = requests.get(url)
             soup = BeautifulSoup(response.content, 'html.parser')
             items = soup.find('div', class_='text')
-            # print(f'тест приготовления {items}')
+
             it = str(items)
             start = it.find('Ингредиенты')
             start = it.find('</b>', start+1)

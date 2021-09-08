@@ -1,7 +1,7 @@
-drop table if exists recipe;
-drop table if exists product;
-drop table if exists dish;
-DROP TABLE IF exists dishcat;
+DROP TABLE if EXISTS recipe;
+DROP TABLE if EXISTS product;
+DROP TABLE if EXISTS dish;
+DROP TABLE IF EXISTS dishcat;
 DROP TABLE IF EXISTS hibernate_sequence;
 DROP TABLE IF EXISTS Users;
 
